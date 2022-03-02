@@ -1,3 +1,12 @@
 body {
-      font-family: 'Open Sans', sans-serif;
+  font-family: 'Open Sans', sans-serif;
+}
+
+/* On click */
+.rect {
+  cursor: pointer;
+}
+
+.color {
+  fill: green;
 }
