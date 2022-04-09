@@ -10,9 +10,11 @@
   "author": "Noemi Romano",
   "license": "ISC",
   "dependencies": {
+    "cartogram-chart": "^1.2.4",
     "css-loader": "^6.7.1",
     "d3": "^7.3.0",
-    "style-loader": "^3.3.1"
+    "style-loader": "^3.3.1",
+    "topogram": "^1.0.1"
   },
   "devDependencies": {
     "@babel/cli": "^7.17.6",

@@ -4,13 +4,21 @@
 
 body {
     display: flex;
-    justify-content: center;
     align-items: center;
-    height: 100vh;
+    flex-direction: column;
+    height: 300vh;
     margin : 0;
+    scroll-snap-type: y mandatory;
 }
 
-.container {
+.fullscreen {
     width: 90vw;
-    height: 90vh;
+    height: 100vh;
+    scroll-snap-align: start;
+}
+
+.bubble-chart, .choropleth {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
