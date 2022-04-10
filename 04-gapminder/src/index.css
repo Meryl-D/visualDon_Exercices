@@ -6,7 +6,7 @@ body {
     display: flex;
     align-items: center;
     flex-direction: column;
-    height: 300vh;
+    height: 200vh;
     margin : 0;
     scroll-snap-type: y mandatory;
 }
