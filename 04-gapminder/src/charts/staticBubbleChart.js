@@ -1,5 +1,5 @@
 import * as d3 from 'd3';
-import { getBiggestNumber, roundEndOfScale, getGdp, getLifeExpectancy, getPopulation, swapNulls } from './data.js';
+import { getBiggestNumber, roundEndOfScale, getGdp, getLifeExpectancy, getPopulation, swapNulls } from '/src/data.js';
 
 const year = 2021;
 // Importe les données
@@ -9,7 +9,7 @@ const lifeExpectancy = swapNulls(year, getLifeExpectancy());
 
 d3.select('body')
     .append('div')
-    .attr('class', 'bubble-chart fullscreen');
+    .attr('class', 'bubble-chart fullscreen static');
 
 // Défini la hauteur, largeur et les marge du graphe.
 const margin = { top: 10, right: 50, bottom: 50, left: 50 },
@@ -17,7 +17,7 @@ const margin = { top: 10, right: 50, bottom: 50, left: 50 },
     height = parseInt(d3.select('.bubble-chart').style('height'), 10) - margin.top - margin.bottom;
 
 // Met le svg dans le body
-const svg = d3.select('.bubble-chart')
+const svg = d3.select('.static')
     .append("svg")
     .attr("width", width + margin.left + margin.right)
     .attr("height", height + margin.top + margin.bottom)
