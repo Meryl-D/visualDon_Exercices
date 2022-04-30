@@ -1,4 +1,3 @@
-import jsdom from "jsdom";
-import fetch from "isomorphic-fetch";
-import puppeteer from "puppeteer";
-
+import './js/screenshot.js';
+import './js/webscrapWiki.js';
+import './js/webscrapEcomm.js';
