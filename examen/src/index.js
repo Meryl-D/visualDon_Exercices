@@ -1,8 +1,2 @@
-import * as d3 from 'd3'
-
-// Import des données
-import data from '../data/countries.geojson'
-
-
-
-
+// import './js/ex1-3.js'
+import './js/ex4.js'

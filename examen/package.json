@@ -7,10 +7,15 @@
     "build": "babel src -d lib",
     "start": "webpack-dev-server"
   },
+  "type": "module",
   "author": "Noemi Romano",
   "license": "ISC",
   "dependencies": {
-    "d3": "^7.3.0"
+    "bufferutil": "^4.0.6",
+    "d3": "^7.3.0",
+    "puppeteer": "^15.0.1",
+    "stream-browserify": "^3.0.0",
+    "utf-8-validate": "^5.0.9"
   },
   "devDependencies": {
     "@babel/cli": "^7.17.6",
@@ -25,6 +30,7 @@
     "json-loader": "^0.5.7",
     "webpack": "^5.70.0",
     "webpack-cli": "^4.9.2",
-    "webpack-dev-server": "^4.7.4"
+    "webpack-dev-server": "^4.7.4",
+    "webpack-node-externals": "^3.0.0"
   }
 }
